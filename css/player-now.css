@@ -1,0 +1,29 @@
+.playerNow {
+  display: flex;
+  gap: .5rem;
+}
+
+.playerNow-cover img {
+  inline-size: 3.5rem;
+  aspect-ratio: 1/1;
+  vertical-align: middle;
+}
+
+.playerNow-details {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.playerNow-info span{
+  display: block;
+}
+
+.playerNow-info .link {
+  color: var(--white);
+}
+
+.playerNow-info .small {
+  color: var(--gray10);
+  text-decoration: none;
+}

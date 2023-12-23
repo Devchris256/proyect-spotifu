@@ -1,0 +1,23 @@
+.playerControl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.playerControl-button {
+  display: flex;
+  justify-content: center;
+}
+
+.playerControl-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.playerControl-slider {
+  flex: 1;
+  flex-shrink: 1;
+}
+

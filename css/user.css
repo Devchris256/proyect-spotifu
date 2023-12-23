@@ -1,0 +1,64 @@
+.user {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  padding: 0.13rem;
+  padding-inline-end: 0.63rem;
+  border-radius: 1rem;
+  background: rgba(000, 000, 000, 0.50);
+  color: var(--white);
+  position: relative;
+}
+
+.user-avatar {
+  inline-size: 1.75rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user img {
+  inline-size: 100%;
+  block-size: 100%;
+  vertical-align: middle;
+}
+
+.user-dropdown .icono {
+  font-size: 0.625rem;
+  color: var(--white);
+}
+
+.dropdown-option {
+  position: absolute;
+  inset-block-start: 100%;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  padding: 0.25rem;
+  background: var(--gray60);
+  display: none;
+}
+
+.dropdown-option ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dropdown-option a {
+  display: block;
+  font: var(--basefont);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: .13rem;
+  padding-inline: .5rem;
+}
+
+.user:hover .dropdown-option,
+.user:focus-within .dropdown-option {
+  display: block;
+}
+
+.dropdown-option a:hover,
+.dropdown-option a:focus {
+  background: var(--gray20);
+}

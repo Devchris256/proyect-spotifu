@@ -1,0 +1,46 @@
+@import './sidebar.css';
+@import './player.css';
+@import './page.css';
+@import './page-album.css';
+
+:root {
+  --inlinesizeSidebar: 15rem;
+  --blocksizeFooter: 5.5rem;
+  --minInline: 768px;
+  --minBlock: 600px;
+}
+
+.layout {
+  min-inline-size: var(--minInline);
+}
+
+.layout-block {
+  display: flex;
+}
+
+.layout-sidebar {
+  inline-size: var(--inlinesizeSidebar);
+  flex-shrink: 0;
+  block-size: calc(100vh - var(--blocksizeFooter));
+  min-block-size: var(--minBlock);
+  overflow: auto;
+  background: var(--gray60);
+}
+
+.layout-page {
+  overflow: auto;
+  flex-grow: 1;
+  block-size: calc(100vh - var(--blocksizeFooter));
+  min-block-size: var(--minBlock);
+}
+
+.layout-player {
+  flex-grow: 1;
+  block-size: var(--blocksizeFooter);
+}
+
+.layout-player .player {
+  block-size: 100%;
+  box-sizing: border-box;
+
+}

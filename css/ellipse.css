@@ -1,0 +1,14 @@
+.ellipse {
+  /* border: 1px solid red; */
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: ; */
+}
+
+.ellipse > * {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

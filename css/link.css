@@ -1,0 +1,10 @@
+.link {
+  font: var(--basefontBold);
+  color: var(--gray10);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--white);
+  transition: color .2s;
+}

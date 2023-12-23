@@ -1,0 +1,13 @@
+@import './playlist-list.css';
+@import './header.css';
+
+.page {
+  padding-inline-start: 2rem;
+  position: relative;
+}
+
+.page-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

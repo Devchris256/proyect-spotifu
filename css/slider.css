@@ -1,0 +1,39 @@
+.slider {
+  /* inline-size: 31rem; */
+  block-size: .25rem;
+  background: rgba(255, 255, 255, .2);
+  border-radius: .25rem;
+}
+
+.slider-progress {
+  position: relative;
+  block-size: 100%;
+  inline-size: 45%;
+
+  border-radius: inherit;
+  background: var(--white);
+}
+
+.slider-ball {
+  position: absolute;
+  inset-inline-start: 100%;
+  inset-block-start: 50%;
+  inline-size: .5rem;
+  aspect-ratio: 1/1;
+
+  border-radius: 50%;
+  border: none;
+  background: var(--white);
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+}
+
+.slider:hover .slider-ball,
+.slider:focus-within .slider-ball {
+  opacity: 1;
+}
+
+.slider:hover .slider-progress,
+.slider:focus-within .slider-progress {
+  background: var(--primary);
+}

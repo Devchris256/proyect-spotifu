@@ -1,0 +1,14 @@
+.icono {
+  border: none;
+  background: transparent;
+  color: var(--gray10);
+  cursor: pointer;
+}
+
+.icono:active .icon-heart {
+  color: var(--primary);
+}
+
+.icono .icon-heart {
+  color: var(--white);
+}

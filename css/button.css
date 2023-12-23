@@ -1,0 +1,29 @@
+.button {
+    font: var(--basefontBold);
+    padding-inline: 2rem;
+    padding-block: .5rem;
+    border-radius: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button.is-white {
+  background: var(--white);
+  color: var(--gray30);
+}
+
+.button.is-primary {
+  font: var(--button);
+  background: var(--primary);
+  color: var(--white);
+}
+
+.button:hover {
+  scale: 1.1;
+  transition: scale .2s;
+}

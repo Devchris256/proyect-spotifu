@@ -3,10 +3,1126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="./css/style.css">
   <title>Spotifu</title>
 </head>
-<body>
+<body class="body">
+  <div class="layout">
+    <div class="layout-block">
+      <div class="layout-sidebar">
+        <sidebar class="sidebar">
+          <div class="logo" role="banner">
+            <a href="/" aria-current="page" aria-label="Inicio">
+              <img src="./image/spotifu-logo.png" width="112" height="32" alt="Logo de Spotifu">
+            </a>
+          </div>
+          <nav class="menu" aria-label="primary">
+            <div class="menuItem is-active">
+              <i class="icon-home" aria-hidden="true"></i>
+              <a href="/" aria-current="page" class="link">Inicio</a>
+            </div>
+            <div class="menuItem">
+              <i class="icon-search" aria-hidden="true"></i>
+              <a href="#" class="link">Buscar</a>
+            </div>
+            <div class="menuItem">
+              <i class="icon-creditCard" aria-hidden="true"></i>
+              <a href="#" class="link">Premium</a>
+            </div>
+          </nav>
+          <nav class="list" aria-labelledby="listbibliary">
+            <h2 id="listbibliary">Tu Biblioteca</h2>
+            <ul class="list-content">
+              <li>
+                <a href="#" class="link">Creada para ti</a>
+              </li>
+              <li>
+                <a href="#" class="link">Escuchado recientemente</a>
+              </li>
+              <li>
+                <a href="#" class="link">Tus me gusta</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="list" aria-labelledby="listplaylist">
+            <h2 id="listplaylist">Playlist</h2>
+            <ul class="list-content">
+              <li>
+                <a href="#" class="link">Angelito - Belee</a>
+              </li>
+              <li>
+                <a href="#" class="link">Lofi Girl - Beast to relax</a>
+              </li>
+              <li>
+                <a href="#" class="link">Happy</a>
+              </li>
+              <li>
+                <span class="ellipse">
+                  <a href="#" class="link">VIVI PEDRAGLIO | PODCAST</a>
+                </span>
+              </li>
+              <li>
+                <a href="#" class="link">Volando con Raggae</a>
+              </li>
+              <li>
+                <a href="#" class="link">Te encontre</a>
+              </li>
+              <li>
+                <a href="#" class="link">En ingles para niños</a>
+              </li>
+              <li>
+                <a href="#" class="link">Lemon Tree</a>
+              </li>
+              <li>
+                <a href="#" class="link">HIP & HOP 90'</a>
+              </li>
+              <li>
+                <a href="#" class="link">Zona Ganjah - Favoritas</a>
+              </li>
+              <li>
+                <a href="#" class="link">The CSS podcast</a>
+              </li>
+              <li>
+                <a href="#" class="link">Regue regue regueton</a>
+              </li>
+              <li>
+                <a href="#" class="link">programar</a>
+              </li>
+              <li>
+                <a href="#" class="link">Cultura Profetica</a>
+              </li>
+              <li>
+                <span class="ellipse">
+                  <a href="#" class="link">Conferencia Borja Villa De España para todo el mundo</a>
+                </span>
+              </li>
+              <li>
+                <a href="#" class="link">BBVA aprendemos juntos</a>
+              </li>
+              <li>
+                <a href="#" class="link">easy stories in english</a>
+              </li>
+              <li>
+                <a href="#" class="link">6 minute english</a>
+              </li>
+              <li>
+                <a href="#" class="link">Listening time</a>
+              </li>
+              <li>
+                <a href="#" class="link">Se regalan dudas</a>
+              </li>
+              <li>
+                <a href="#" class="link">Entiende tu mente</a>
+              </li>
+              <li>
+                <a href="#" class="link">Trabajo en práctica</a>
+              </li>
+              <li>
+                <a href="#" class="link">Invertir joven</a>
+              </li>
+              <li>
+                <a href="#" class="link">Planet money</a>
+              </li>
+              <li>
+                <a href="#" class="link">The rest is history</a>
+              </li>
+            </ul>
+          </nav>
+        </sidebar>
+      </div>
+      <div class="layout-page">
+        <div class="page">
+          <div class="sticky">
+            <div class="page-block">
+              <header class="header" aria-label="navegacion principal">
+                <div class="header-nav">
+                  <div class="navigation">
+                    <button class="b-navigation" aria-label="Volver" title="Volver">
+                      <i class="icon-arrowLeft" aria-hidden="true"></i>
+                    </button>
+                    <button class="b-navigation" aria-label="Siguiente" disabled>
+                      <i class="icon-arrowRight" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <form action="" class="search">
+                    <i class="icon-search" aria-hidden="true"></i>
+                    <input type="search" placeholder="Artistas, Canciones o Podcasts" aria-label="Buscar por Artistas, Canciones o Podcasts">
+                  </form>
+                </div>
+                <div class="user">
+                  <div class="user-avatar">
+                    <img src="./image/user.jpeg" alt="Avatar del usuario" width="28" height="28">
+                  </div>
+                  <div class="user-name">
+                    <span>DevChris</span>
+                  </div>
+                  <div class="user-dropdown">
+                    <button class="icono" aria-label="desplegar">
+                      <i class="icon-vector" aria-hidden="true"></i>
+                    </button>
+                    <div class="dropdown-option">
+                      <ul>
+                        <li><a href="/" aria-current="page">Cuenta</a></li>
+                        <li><a href="./open.html">Cerrar Sesion</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </header>
+            </div>
+          </div>
+          <main class="page-block">
+            <section class="playlistList" aria-labelledby="region-1">
+              <div class="playlistList-top">
+                <h2 id="region-1">Buenas noches</h2>
+                <div class="navigation">
+                  <button class="b-navigation" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="b-navigation" aria-label="Siguiente" disabled>
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="playlistList-content">
+                <div class="playlistA" >
+                  <a href="./playlist.html" class="playlistA-link">
+                    <div class="playlistA-cover">
+                      <img src="./image/cover-k-personajes.jpg" height="76" width="76" alt="Cover de K personajes">
+                    </div>
+                    <div class="playlistA-content">
+                      <span>Ke personajes</span>
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistA" >
+                  <a href="./playlist.html" class="playlistA-link">
+                    <div class="playlistA-cover">
+                      <img src="./image/cover-happy.jpg" height="76" width="76" alt="Cover de Happy">
+                    </div>
+                    <div class="playlistA-content">
+                      <span>Happy - musica que eleva</span>
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistA" >
+                  <a href="./playlist.html" class="playlistA-link">
+                    <div class="playlistA-cover">
+                      <img src="./image/cover-lofi.jpg" height="76" width="76" alt="Cover de Lofi Girl">
+                    </div>
+                    <div class="playlistA-content">
+                      <span>Lofi Girl - Beast</span>
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistA" >
+                  <a href="./playlist.html" class="playlistA-link">
+                    <div class="playlistA-cover">
+                      <img src="./image/cover-vivi.jpg" height="76" width="76" alt="Cover de Vivi PEDRAGLIO">
+                    </div>
+                    <div class="playlistA-content">
+                      <span>VIVI PEDRAGLIO</span>
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistA" >
+                  <a href="./playlist.html" class="playlistA-link">
+                    <div class="playlistA-cover">
+                      <img src="./image/cover-2023.jpg" height="76" width="76" alt="Cover de 2023">
+                    </div>
+                    <div class="playlistA-content">
+                      <span>Your top song</span>
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistA" >
+                  <a href="./playlist.html" class="playlistA-link">
+                    <div class="playlistA-cover">
+                      <img src="./image/cover-raggae.jpg" height="76" width="76" alt="Cover de Raggae">
+                    </div>
+                    <div class="playlistA-content">
+                      <span>Volando con Raggae</span>
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region-2">
+              <div class="playlistList-top">
+                <h2 id="region-2">Tus programas</h2>
+                <div class="navigation">
+                  <button class="b-navigation" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="b-navigation" aria-label="Siguiente" disabled>
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="playlistList-content">
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-vivi.jpg" height="150" width="150" alt="cover VIVI PEDRAGLIO">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="VIVI PEDRAGLIO | PODCAST">VIVI PEDRAGLIO | PODCAST</span>
+                      </span>
+                      <span class="playlistB-description">Vivi Pedraglio</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-disney.jpg" height="150" width="150" alt="cover disney">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Majo Lopéz</span>
+                      <span class="playlistB-description">Majo Lopéz</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-brujeria.jpg" height="150" width="150" alt="cover Brujeria">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">CienciayBrujeria</span>
+                      <span class="playlistB-description">Rix/Capi/Key</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-coktal.jpg" height="150" width="150" alt="cover Coktal">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">CULTURA COKTAIL</span>
+                      <span class="playlistB-description">Podcast</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-borja.jpg" height="150" width="150" alt="cover Borja">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">CONFERENCIAS</span>
+                      <span class="playlistB-description">Borja Villaseca</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-cuento.jpg" height="150" width="150" alt="cover Narrador de cuento">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="El Narrador de cuentos">El Narrador de cuentos</span>
+                      </span>
+                      <span class="playlistB-description">Media4kids</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-financiero.jpg" height="150" width="150" alt="cover de podcast Libertad Financiera">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Club Libertad Financiera">Club Libertad Financiera</span>
+                      </span>
+                      <span class="playlistB-description">Libertad Financiera</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-duolingo.jpg" height="150" width="150" alt="cover del podcast de Duolingo">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Relatos en inlges con Duolingo">Relatos en inlges con Duolingo</span>
+                      </span>
+                      <span class="playlistB-description">Duolingo</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region-3">
+              <div class="playlistList-top">
+                <h2 id="region-3">Hecho para Christina Atoche Pascual</h2>
+                <div class="navigation">
+                  <button class="b-navigation" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="b-navigation" aria-label="Siguiente" disabled>
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="playlistList-content">
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix1.jpg" height="150" width="150" alt="cover del album mix 1">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name">Mix diario 1</span>
+                      </span>
+                      <span class="playlistB-description">Mondo Loops, Dimension 32</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix2.jpg" height="150" width="150" alt="cover del album mix 2">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Mix diario 2</span>
+                      <span class="playlistB-description">Mood loops, laffey</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix3.jpg" height="150" width="150" alt="cover del album mix 3">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Mix diario 3</span>
+                      <span class="playlistB-description">Wisim & Yandel, Feid, Luny Tunes</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix4.jpg" height="150" width="150" alt="cover del album mix 4">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Mix diario 4</span>
+                      <span class="playlistB-description">2Pac, 50 Cent, Eminem y más</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix5.jpg" height="150" width="150" alt="cover del album mix 5">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Mix diario 5</span>
+                      <span class="playlistB-description">Don Omar, Romeo Santos y más</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix6.jpg" height="150" width="150" alt="cover del album mix 6">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name">Mix diario 6</span>
+                      </span>
+                      <span class="ellipse">
+                        <span class="playlistB-description" title="Cultura Profetica, Dread Mar I, Zona Ganjah y más">Cultura Profetica, Dread Mar I, Zona Ganjah y más</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-descubrimiento.jpg" height="150" width="150" alt="cover del album cover-descubrimiento">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Descubrimiento Semanal">Descubrimiento Semanal</span>
+                      </span>
+                      <span class="ellipse">
+                        <span class="playlistB-description" title="Tu combinanción Semanal de música fresca">Tu combinanción Semanal de música fresca</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-novedades.jpg" height="150" width="150" alt="cover del album novedades">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Radar de Novedades</span>
+                      <span class="playlistB-description">Las novedades de los artistas que sigues</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region-4">
+              <div class="playlistList-top">
+                <h2 id="region-4">Sumérgete de nuevo en tu música</h2>
+                <div class="navigation">
+                  <button class="b-navigation" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="b-navigation" aria-label="Siguiente" disabled>
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="playlistList-content">
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-hiphop.jpg" height="150" width="150" alt="cover del album Hip hop">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Hip Hop 90's & 2000 - classics">Hip Hop 90's & 2000 - classics</span>
+                      </span>
+                      <span class="playlistB-description">De Bruno Braga</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-gonzalo.jpg" height="150" width="150" alt="cover del album Gonzalo Genek">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Gonzalo Genek</span>
+                      <span class="playlistB-description">Artista</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-raggae.jpg" height="150" width="150" alt="cover del album Raggae">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Regue Regue Regueton">Regue Regue Regueton</span>
+                      </span>
+                      <span class="playlistB-description">De Luis1614</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-armonia10.jpg" height="150" width="150" alt="cover del album Armonia 10">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Armonia 10 - Las antiguas">Armonia 10 - Las antiguas</span>
+                      </span>
+                      <span class="playlistB-description">Temas antguos de Armonia 10</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-aventura.jpg" height="150" width="150" alt="cover del album Aventura">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Aventura & Romeo Santos">Aventura & Romeo Santos</span>
+                      </span>
+                      <span class="ellipse">
+                        <span class="playlistB-description" title="Lo mejor de Aventura & Romeo Santos - Los Reyes de la bachata">Lo mejor de Aventura & Romeo Santos - Los Reyes de la bachata</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-boleros.jpg" height="150" width="150" alt="cover del album Boleros">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="BOLEROS CANTINEROS CORTA VENAS">BOLEROS CANTINEROS CORTA VENAS</span>
+                      </span>
+                      <span class="ellipse">
+                        <span class="playlistB-description">De Luis Canada</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region-5">
+              <div class="playlistList-top">
+                <h2 id="region-5">Más cosas que te van a encantar</h2>
+                <div class="navigation">
+                  <button class="b-navigation" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="b-navigation" aria-label="Siguiente" disabled>
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="playlistList-content">
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-vivi.jpg" height="150" width="150" alt="cover VIVI PEDRAGLIO">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="VIVI PEDRAGLIO | PODCAST">VIVI PEDRAGLIO | PODCAST</span>
+                      </span>
+                      <span class="playlistB-description">Vivi Pedraglio</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-disney.jpg" height="150" width="150" alt="cover disney">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Majo Lopéz</span>
+                      <span class="playlistB-description">Majo Lopéz</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-brujeria.jpg" height="150" width="150" alt="cover Brujeria">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">CienciayBrujeria</span>
+                      <span class="playlistB-description">Rix/Capi/Key</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-coktal.jpg" height="150" width="150" alt="cover Coktal">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">CULTURA COKTAIL</span>
+                      <span class="playlistB-description">Podcast</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-borja.jpg" height="150" width="150" alt="cover Borja">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">CONFERENCIAS</span>
+                      <span class="playlistB-description">Borja Villaseca</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-cuento.jpg" height="150" width="150" alt="cover Narrador de cuento">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="El Narrador de cuentos">El Narrador de cuentos</span>
+                      </span>
+                      <span class="playlistB-description">Media4kids</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-financiero.jpg" height="150" width="150" alt="cover de podcast Libertad Financiera">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Club Libertad Financiera">Club Libertad Financiera</span>
+                      </span>
+                      <span class="playlistB-description">Libertad Financiera</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-duolingo.jpg" height="150" width="150" alt="cover del podcast de Duolingo">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Relatos en inlges con Duolingo">Relatos en inlges con Duolingo</span>
+                      </span>
+                      <span class="playlistB-description">Duolingo</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region-6">
+              <div class="playlistList-top">
+                <h2 id="region-6">Hoy lo está petando</h2>
+                <div class="navigation">
+                  <button class="b-navigation" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="b-navigation" aria-label="Siguiente" disabled>
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="playlistList-content">
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix1.jpg" height="150" width="150" alt="cover del album mix 1">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name">Mix diario 1</span>
+                      </span>
+                      <span class="playlistB-description">Mondo Loops, Dimension 32</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix2.jpg" height="150" width="150" alt="cover del album mix 2">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Mix diario 2</span>
+                      <span class="playlistB-description">Mood loops, laffey</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix3.jpg" height="150" width="150" alt="cover del album mix 3">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Mix diario 3</span>
+                      <span class="playlistB-description">Wisim & Yandel, Feid, Luny Tunes</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix4.jpg" height="150" width="150" alt="cover del album mix 4">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Mix diario 4</span>
+                      <span class="playlistB-description">2Pac, 50 Cent, Eminem y más</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix5.jpg" height="150" width="150" alt="cover del album mix 5">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Mix diario 5</span>
+                      <span class="playlistB-description">Don Omar, Romeo Santos y más</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-mix6.jpg" height="150" width="150" alt="cover del album mix 6">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name">Mix diario 6</span>
+                      </span>
+                      <span class="ellipse">
+                        <span class="playlistB-description" title="Cultura Profetica, Dread Mar I, Zona Ganjah y más">Cultura Profetica, Dread Mar I, Zona Ganjah y más</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-descubrimiento.jpg" height="150" width="150" alt="cover del album cover-descubrimiento">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Descubrimiento Semanal">Descubrimiento Semanal</span>
+                      </span>
+                      <span class="ellipse">
+                        <span class="playlistB-description" title="Tu combinanción Semanal de música fresca">Tu combinanción Semanal de música fresca</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-novedades.jpg" height="150" width="150" alt="cover del album novedades">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Radar de Novedades</span>
+                      <span class="playlistB-description">Las novedades de los artistas que sigues</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="playlistList" aria-labelledby="region-7">
+              <div class="playlistList-top">
+                <h2 id="region-7">!Lo que más anda sonando!</h2>
+                <div class="navigation">
+                  <button class="b-navigation" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="b-navigation" aria-label="Siguiente" disabled>
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="playlistList-content">
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-hiphop.jpg" height="150" width="150" alt="cover del album Hip hop">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Hip Hop 90's & 2000 - classics">Hip Hop 90's & 2000 - classics</span>
+                      </span>
+                      <span class="playlistB-description">De Bruno Braga</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-gonzalo.jpg" height="150" width="150" alt="cover del album Gonzalo Genek">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="playlistB-name">Gonzalo Genek</span>
+                      <span class="playlistB-description">Artista</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-raggae.jpg" height="150" width="150" alt="cover del album Raggae">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Regue Regue Regueton">Regue Regue Regueton</span>
+                      </span>
+                      <span class="playlistB-description">De Luis1614</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-armonia10.jpg" height="150" width="150" alt="cover del album Armonia 10">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Armonia 10 - Las antiguas">Armonia 10 - Las antiguas</span>
+                      </span>
+                      <span class="playlistB-description">Temas antguos de Armonia 10</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-aventura.jpg" height="150" width="150" alt="cover del album Aventura">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="Aventura & Romeo Santos">Aventura & Romeo Santos</span>
+                      </span>
+                      <span class="ellipse">
+                        <span class="playlistB-description" title="Lo mejor de Aventura & Romeo Santos - Los Reyes de la bachata">Lo mejor de Aventura & Romeo Santos - Los Reyes de la bachata</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="playlistB">
+                  <a href="./playlist.html" class="playlistB-link">
+                    <div class="playlistB-cover">
+                      <img src="./image/cover-boleros.jpg" height="150" width="150" alt="cover del album Boleros">
+                      <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <div class="playlistB-details">
+                      <span class="ellipse">
+                        <span class="playlistB-name" title="BOLEROS CANTINEROS CORTA VENAS">BOLEROS CANTINEROS CORTA VENAS</span>
+                      </span>
+                      <span class="ellipse">
+                        <span class="playlistB-description">De Luis Canada</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+    <footer class="layout-block">
+      <div class="layout-player">
+        <div class="player">
+          <div class="player-Now">
+            <div class="playerNow">
+              <div class="playerNow-cover">
+                <img src="./image/cover.jpg" height="56" width="56" alt="Cover Nos Vamos - Daske Gaitan, Gonzalo Genek">
+              </div>
+              <div class="playerNow-details">
+                <div class="playerNow-info">
+                  <span><a href="#" class="link">Nos Vamos</a></span>
+                  <span><a href="#" class="small">Daske Gaitan, Gonzalo Genek</a></span>
+                </div>
+                <div class="playerNow-like">
+                  <button class="icono is-active" aria-label="Guardar en tu Biblioteca" title="Guardar en tu Biblioteca"
+                    role="switch" aria-checked="false">
+                    <i class="icon-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="player-control">
+            <div class="playerControl">
+              <div class="playerControl-button">
+                <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+                  <i class="icon-prev" aria-hidden="true"></i>
+                </button>
+                <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                  <i class="icon-play" aria-hidden="true"></i>
+                </button>
+                <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+                  <i class="icon-next" aria-hidden="true"></i>
+                </button>
+              </div>
+              <div class="playerControl-progress">
+                <span class="small">01:12</span>
+                <div class="playerControl-slider">
+                  <div class="slider">
+                    <div class="slider-progress">
+                      <div class="slider-ball" tabindex="0" aria-label="Deslizar y poner la música en el minuto requerido">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="small">03:25</span>
+              </div>
+            </div>
+          </div>
+          <div class="player-volume">
+            <div class="playerVolume">
+              <button class="icono" aria-label="Silenciar" title="Silenciar" aria-describedby="Volumenalto">
+                <i class="icon-volumeUp" role="presentation" id="Volumenalto"></i>
+              </button>
+              <div class="playerVolume-slider">
+                <div class="slider">
+                  <div class="slider-progress">
+                    <div class="slider-ball"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </footer>
+  </div>
 
 </body>
 </html>

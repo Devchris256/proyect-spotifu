@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  color: var(--white);
+}
+
+.row > * {
+  padding-inline: .3rem;
+  padding-block: .6rem;
+  font: var(--basefont);
+}
+
+.row :nth-of-type(3),
+.row :nth-of-type(4),
+.row :nth-of-type(5) {
+  flex-grow: 1;
+  /* flex-shrink: 1; */
+}
+
+.row-date {
+  inline-size: 4.5rem;
+}
+
+.row-time {
+  inline-size: 2.5rem;
+}

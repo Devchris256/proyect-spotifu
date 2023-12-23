@@ -1,0 +1,53 @@
+@import './font.css';
+@import './body.css';
+@import './icon.css';
+@import './button-icon.css';
+@import './link.css';
+@import './ellipse.css';
+@import './small.css';
+@import './slider.css';
+@import './icono.css';
+@import './button.css';
+@import './search.css';
+@import './navigation.css';
+@import './sticky.css';
+@import './scroll.css';
+@import './layout.css';
+
+
+:root {
+  font-size: 16px;
+  --fontFamily: 'Avenir', sans-serif;
+  --headline1: bold 1.5rem/1.85rem var(--fontFamily);
+  --headline2: bold 0.75rem/1.2rem var(--fontFamily);
+  --basefont: normal 0.875rem/1.375rem var(--fontFamily);
+  --basefontBold: bold 0.875rem/1.375rem var(--fontFamily);
+  --button: normal 0.875rem/1rem var(--fontFamily);
+  --small: normal 0.65625rem/.8rem var(--fontFamily);
+  --primary: #00B050;
+  --white: #FFFFFF;
+  --gray10: #B3B3B3;
+  --gray20: #737373;
+  --gray30: #282828;
+  --gray40: #181818;
+  --gray50: #121212;
+  --gray60: #000000;
+}
+
+@media screen and (min-width: 1367px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  :root {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  :root {
+    font-size: 30px;
+  }
+}

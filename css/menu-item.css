@@ -1,0 +1,55 @@
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+
+  block-size: 2.5rem;
+  padding-inline: 1.5rem;
+}
+
+
+.menuItem i {
+  font-size: 1.5rem;
+  color: var(--gray10);
+}
+
+.menuItem .link {
+  font: var(--button);
+  flex-grow: 1;
+}
+
+/* state */
+
+.menuItem:focus-within .link,
+.menuItem:hover .link {
+  color: var(--white);
+  transition: color .2s;
+}
+
+.menuItem:focus-within i,
+.menuItem:hover i {
+  color: var(--white);
+  transition: color .2s;
+}
+
+.menuItem.is-active {
+  box-shadow: inset .25rem 0 0 var(--primary);
+}
+
+.menuItem.is-active .link {
+  color: var(--white);
+}
+
+.menuItem.is-active .icon-home::before {
+  content: '\e90a';
+  color: var(--white);
+}
+
+.menuItem.is-active .icon-search::before {
+  content: '\e914';
+  color: var(--white);
+}
+.menuItem.is-active .icon-creditCard::before {
+  color: var(--white);
+  font-weight: bold;
+}

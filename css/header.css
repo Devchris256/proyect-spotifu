@@ -1,0 +1,17 @@
+@import './user.css';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1rem;
+  padding-inline-end: 1.5rem;
+  backdrop-filter: blur(0.5rem);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
